@@ -44,20 +44,25 @@ Output: `[4, 2, 4, -1, -1]`
 **Objektif:** Simulasi kueri dari queue
 **Contoh** 
 Input: <br>
-`6`
-`add 1 1`
-`add 2 2`
-`add 3 3`
-`del 2`
-`rev`
-`del 2` <br>
-Output: <br>
-`1`
-`3`
-`6`
-`1`
-`3`
+```
+6
+add 1 1
+add 2 2
+add 3 3
+del 2
+rev
+del 2
+``` 
+<br>
 
+Output: <br>
+```
+1
+3
+6
+1
+3
+```
 ---
 
 ## Aturan yang harus dipatuhi

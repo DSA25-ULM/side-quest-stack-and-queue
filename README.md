@@ -1,50 +1,48 @@
-# 🧙‍♂️ Side Quest: Stack & Queue Trials
+# Side Quest: Stack & Queue 
 
-Welcome, Challenger! 🗡️  
-You've trained hard in the lands of variables, loops, and functions...  
-But now, a new **side quest** awaits you — one that will test your mind with the **ancient structures of Stack and Queue**.
+Selamat datang, pejuang.
+Soal-soal yang tersedia dalam laporan praktikum umumnya bersifat dasar dan berfokus pada operasi `CRUD` (Create, Read, Update, Delete).
 
-You’ve been summoned to complete a series of trials. Each trial is designed to test your skill with fundamental data structures used by the most seasoned programmers in the realm.
+Namun, problem-problem yang disajikan dalam side quest ini dirancang untuk melatih pemahaman Anda dalam menerapkan struktur data dan algoritma yang tepat dalam menyelesaikan persoalan.
 
-Prove yourself, and rise as a true knight of logic and code. ⚔️
+Setiap soal ditulis dengan pendekatan ala **pemrograman kompetitif**, sehingga bersifat well-written, spesifik, dan telah mempertimbangkan berbagai edge case secara menyeluruh.
+
+Dengan menyelesaikan problem-problem ini, Anda tidak hanya akan memperkuat dasar-dasar pemrograman, tetapi juga membangun intuisi algoritmik yang lebih tajam.
 
 ---
 
-## 🧱 Stack Trials
 
-### Trial 1: Evaluate Postfix Expression 🧮  
+### Problem 1: Evaluate Postfix Expression  
 
-**Objective:** Evaluate a postfix (Reverse Polish) expression using a stack.  
-**Example:**  
+**Objektif:** Hitung ekspresi RPN.  
+**Contoh:**  
 Input: `["2", "3", "1", "*", "+", "9", "-"]`  
 Output: `-4`
 
 ---
 
-### Trial 2: Valid Parentheses 🧷  
+### Problem 2: Valid Parentheses 
 
-**Objective:** Check if a string containing `'('`, `')'`, `'{'`, `'}'`, `'['`, and `']'` is properly nested and matched.  
-**Example:**  
+**Objektif:** Cek apakah tanda kurung yang bersarang valid atau tidak
+**Contoh:**  
 Input: `"({[]})"`  
 Output: `true`
 
 ---
 
-### Trial 3: Next Greater Element 🔮  
+### Problem 3: Next Greater Element  
 
-**Objective:** For each element in the array, find the next element to the right that is greater. Return `-1` if none.  
-**Example:**  
+**Objektif:** Cari elemen yang lebih besar dari elemen saat ini
+**Contoh:**  
 Input: `[2, 1, 2, 4, 3]`  
 Output: `[4, 2, 4, -1, -1]`
 
 ---
 
-## 🧺 Queue Trials
+### Problem 4: Queue Simulation 
 
-### Trial 4: Queue Simulation 🏰  
-
-**Objective:** Simulate a queue where the person give some query.
-**Example** 
+**Objektif:** Simulasi kueri dari queue
+**Contoh** 
 Input: 
 `6`
 `add 1 1`
@@ -60,15 +58,9 @@ Output:
 `1`
 `3`
 
-
-
 ---
 
-## ⚔️ Rules of the Quest
-- Write your solution in the provided files
-- Write clean, readable code – knights don’t leave messy battlefields.
-- Explain your approach and space-time complexity using markdown.
-
----
-
-🧝‍♀️ *"The data structures are calling… Will you answer?"*
+## Aturan yang harus dipatuhi
+- Tulis solusi dalam file `{NamaSoal}.cpp` yang disediakan. Jangan mengubah nama filenya
+- Secara good practice, tulis kode dengan clean dan readable
+- Jelaskan pendekatan solusi kalian pada file `MyApproach.md`. Serta analisis kompleksitas ruang-waktunya.

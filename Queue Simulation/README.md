@@ -27,7 +27,6 @@ Antrian dimulai dalam keadaan kosong. Lalu, Anda akan diberikan serangkaian peri
 
 # Kasus Uji
 
-## Kasus 1
 Input: <br>
 ```
 6
@@ -37,9 +36,9 @@ add 3 3
 del 2
 rev
 del 2
-
 ```
 <br>
+
 Output: <br>
 ```
 1
@@ -47,8 +46,9 @@ Output: <br>
 6
 1
 3
-````
+```
 <br>
+
 Penjelasan: <br>
 ```
 awal    : []

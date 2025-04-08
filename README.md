@@ -1,12 +1,10 @@
 # Side Quest: Stack & Queue 
 
 Selamat datang, pejuang.
-Soal-soal yang tersedia dalam laporan praktikum umumnya bersifat dasar dan berfokus pada operasi `CRUD` (Create, Read, Update, Delete).
 
+Soal-soal yang tersedia dalam laporan praktikum umumnya bersifat dasar dan berfokus pada operasi `CRUD` (Create, Read, Update, Delete). 
 Namun, problem-problem yang disajikan dalam side quest ini dirancang untuk melatih pemahaman Anda dalam menerapkan struktur data dan algoritma yang tepat dalam menyelesaikan persoalan.
-
 Setiap soal ditulis dengan pendekatan ala **pemrograman kompetitif**, sehingga bersifat well-written, spesifik, dan telah mempertimbangkan berbagai edge case secara menyeluruh.
-
 Dengan menyelesaikan problem-problem ini, Anda tidak hanya akan memperkuat dasar-dasar pemrograman, tetapi juga membangun intuisi algoritmik yang lebih tajam.
 
 ---

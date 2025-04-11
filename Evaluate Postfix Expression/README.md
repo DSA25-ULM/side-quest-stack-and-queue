@@ -20,10 +20,16 @@ Tugas Anda adalah menghitung hasil dari ekspresi tersebut dan mengembalikannya s
   - Operator: `'+'`, `'-'`, `'*'`, `'/'`
   - Bilangan bulat dalam rentang `[-200, 200]` (inklusif)
 
+# Format Masukan
+- Sebuah baris berisikan ekspresi matematis dengan RPN, operand dan operator dipisahkan oleh spasi
+
+# Format Keluaran
+- Hasil evalusi RPN
+
 # Kasus Uji
 
 ## Kasus 1  
-**Input:** `["2", "1", "+", "3", "*"]`  
+**Input:** `2 1 + 3 *`  
 **Output:** `9`  
 <details>
 <summary>Penjelasan</summary>
@@ -31,7 +37,7 @@ Tugas Anda adalah menghitung hasil dari ekspresi tersebut dan mengembalikannya s
 </details>
 
 ## Kasus 2  
-**Input:** `["4", "13", "5", "/", "+"]`  
+**Input:** `4 13 5 / +`  
 **Output:** `6`  
 <details>
 <summary>Penjelasan</summary>
@@ -39,7 +45,7 @@ Tugas Anda adalah menghitung hasil dari ekspresi tersebut dan mengembalikannya s
 </details>
 
 ## Kasus 3  
-**Input:** `["10","6","9","3","+","-11","*","/","*","17","+","5","+"]`  
+**Input:** `10 6 9 3 + -11 * / * 17 + 5 +`  
 **Output:** `22`  
 <details>
 <summary>Penjelasan</summary>

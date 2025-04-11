@@ -13,20 +13,27 @@ Suatu string dikatakan valid apabila memenuhi seluruh kondisi berikut:
 - `1 <= s.length <= 10⁴`
 - `s` hanya terdiri atas karakter `(`, `)`, `{`, `}`, `[` dan `]`.
 
+
+# Format Masukan
+`string` `s` yang berisi kombinasi dari `(`, `)`, `{`, `}`, `[` dan `]`
+
+# Format Keluaran
+Cetak `true` jika kombinasi valid, `false` jika tidak.
+
 # Kasus Uji
 
 ## Kasus 1  
-**Input:** `"()"`  
+**Input:** `()`  
 **Output:** `true`
 
 ## Kasus 2  
-**Input:** `"()[]{}"`  
+**Input:** `()[]{}`  
 **Output:** `true`
 
 ## Kasus 3  
-**Input:** `"(]"`  
+**Input:** `(]`  
 **Output:** `false`
 
 ## Kasus 4  
-**Input:** `"([])"`  
+**Input:** `([])`  
 **Output:** `true`

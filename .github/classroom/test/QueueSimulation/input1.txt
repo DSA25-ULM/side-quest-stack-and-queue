@@ -1,0 +1,6 @@
+5
+add 5 3
+del 2
+add 10 4
+rev
+add 7 2

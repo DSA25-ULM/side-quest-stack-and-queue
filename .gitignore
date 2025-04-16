@@ -1,0 +1,39 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Codeforces Plugin helper folder (CPH)
+.cph/
+
+
+
+# Ignore build artifacts
+*.out
+*.exe
+*.o
+*.obj
+*.class
+*.sh
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# testing only
+validParentheses.cpp
+QSim.cpp 
+NGE.cpp 
+RPN.cpp
+
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore temp test output
+tmp.txt

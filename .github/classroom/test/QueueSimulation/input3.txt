@@ -1,0 +1,7 @@
+6
+add 5 3
+del 2
+add 8 5
+del 3
+add 10 1
+del 1

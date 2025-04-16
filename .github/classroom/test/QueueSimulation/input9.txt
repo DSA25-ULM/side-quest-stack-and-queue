@@ -1,0 +1,6 @@
+5
+add 2 3
+rev
+rev
+rev
+rev

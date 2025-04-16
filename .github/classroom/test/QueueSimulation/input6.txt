@@ -1,0 +1,7 @@
+6
+add 1 1000
+add 2 500
+del 100
+rev
+add 3 250
+del 150

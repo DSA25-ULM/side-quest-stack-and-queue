@@ -14,8 +14,8 @@ total=10
 # Loop through test cases
 for i in $(seq 1 $total); do
   input=".github/classroom/test/ValidParentheses/input$i.txt"
-  expected="..github/classroom/test/alidParentheses/expected_output$i.txt"
-  output="..github/classroom/test/ValidParentheses/actual_output$i.txt"
+  expected=".github/classroom/test/alidParentheses/expected_output$i.txt"
+  output=".github/classroom/test/ValidParentheses/actual_output$i.txt"
 
   # Run the program with input
   ./VP < "$input" > "$output"

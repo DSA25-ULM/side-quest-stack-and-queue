@@ -13,9 +13,9 @@ total=10
 
 # Loop through test cases
 for i in $(seq 1 $total); do
-  input="../test/NextGreaterElement/input$i.txt"
-  expected="../test/NextGreaterElement/expected_output$i.txt"
-  output="../test/NextGreaterElement/actual_output$i.txt"
+  input=".github/classroom/test/NextGreaterElement/input$i.txt"
+  expected=".github/classroom/test/NextGreaterElement/expected_output$i.txt"
+  output=".github/classroom/test/NextGreaterElement/actual_output$i.txt"
 
   # Run the program with input
   ./NGE < "$input" > "$output"

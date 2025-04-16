@@ -13,9 +13,9 @@ total=10
 
 # Loop through test cases
 for i in $(seq 1 $total); do
-  input="../test/EvaluatePostfixExpression/input$i.txt"
-  expected="../test/EvaluatePostfixExpression/expected_output$i.txt"
-  output="../test/EvaluatePostfixExpression/actual_output$i.txt"
+  input=".github/classroom/test/EvaluatePostfixExpression/input$i.txt"
+  expected=".github/classroom/test/EvaluatePostfixExpression/expected_output$i.txt"
+  output=".github/classroom/test/EvaluatePostfixExpression/actual_output$i.txt"
 
   # Run the program with input
   ./RPN < "$input" > "$output"

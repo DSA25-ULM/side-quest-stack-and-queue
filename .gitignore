@@ -12,7 +12,7 @@
 *.o
 *.obj
 *.class
-*.sh
+# *.sh
 
 # Ignore temporary files
 *.log

@@ -1,0 +1,44 @@
+{
+    "tests": [
+      {
+        "name": "Valid Parentheses",
+        "run": "bash .github/classroom/scripts/VP.sh",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Next Greater Element",
+        "run": "bash .github/classroom/scripts/NGE.sh",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Evaluate Reverse Polish Notation",
+        "run": "bash .github/classroom/scripts/RPN.sh",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "Queue Simulation",
+        "run": "bash .github/classroom/scripts/QSim.sh",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      }
+    ],
+    "autograding": {
+      "version": 1
+    }
+  }
+  
